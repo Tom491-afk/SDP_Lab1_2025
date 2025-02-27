@@ -24,7 +24,9 @@ namespace STP_Lab_2025
             textBox3.Text = Convert.ToString(x);
         }
 
+        private void txtNum2_TextChanged(object sender, EventArgs e)
+        {
 
-       
+        }
     }
 }

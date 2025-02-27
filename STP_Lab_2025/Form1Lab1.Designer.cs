@@ -54,6 +54,7 @@
             this.txtNum2.Name = "txtNum2";
             this.txtNum2.Size = new System.Drawing.Size(100, 29);
             this.txtNum2.TabIndex = 1;
+            this.txtNum2.TextChanged += new System.EventHandler(this.txtNum2_TextChanged);
             // 
             // textBox3
             // 

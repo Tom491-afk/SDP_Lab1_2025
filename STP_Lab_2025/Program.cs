@@ -1,8 +1,10 @@
-﻿using System;
+﻿using STP_Lab_2025.Lab02;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 
 namespace STP_Lab_2025
 {
@@ -16,7 +18,7 @@ namespace STP_Lab_2025
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1Lab1());
+            Application.Run(new frmLab2B());
         }
     }
 }
