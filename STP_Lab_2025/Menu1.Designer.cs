@@ -1,6 +1,6 @@
-﻿namespace STP_Lab_2025.Lab02
+﻿namespace STP_Lab_2025
 {
-    partial class frmLab2C
+    partial class Menu1
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Menu1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "frmLab2C";
+            this.Name = "Menu1";
+            this.Text = "Menu1";
+            this.Load += new System.EventHandler(this.Menu1_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion

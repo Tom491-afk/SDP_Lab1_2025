@@ -1,4 +1,5 @@
 ﻿using STP_Lab_2025.Lab02;
+using STP_Lab_2025.Lab03;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +19,7 @@ namespace STP_Lab_2025
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmLab2B());
+            Application.Run(new frmLab3B());
         }
     }
 }
